@@ -1,0 +1,68 @@
+{
+  "name": "claude-flow-ui",
+  "version": "0.1.0",
+  "description": "Visual layer for Claude Code Flow",
+  "main": "dist/main/index.js",
+  "bin": {
+    "flow-ui": "dist/main/cli.js"
+  },
+  "author": "Claude Code Flow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/claude-code-flow-ui"
+  },
+  "keywords": [
+    "claude",
+    "flow",
+    "ui",
+    "electron",
+    "developer-tools"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "npm run build && ELECTRON_RUN_AS_NODE= electron .",
+    "build": "npm run build:main && npm run build:renderer",
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build",
+    "start": "ELECTRON_RUN_AS_NODE= electron .",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-dropdown-menu": "^2.1.4",
+    "@radix-ui/react-scroll-area": "^1.2.2",
+    "@radix-ui/react-tabs": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.1.6",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "chokidar": "^4.0.3",
+    "clsx": "^2.1.1",
+    "electron": "^33.3.1",
+    "glob": "^11.0.0",
+    "lucide-react": "^0.469.0",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^7.1.1",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.11",
+    "zustand": "^5.0.2"
+  }
+}
