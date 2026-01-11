@@ -130,7 +130,7 @@ npm run dev
 ## Project Structure
 
 ```
-claude-flow-ui/
+claude-code-flow-ui/
 ├── src/
 │   ├── main/              # Electron main process
 │   │   ├── index.ts       # App entry point
