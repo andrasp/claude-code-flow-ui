@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/claude-code-flow-ui.svg)](https://www.npmjs.com/package/claude-code-flow-ui)
 
-A desktop application that provides a visual interface for [Claude Code Flow](https://github.com/anthropics/claude-code-flow) projects. Browse flows, track roadmap progress, explore memory, and review session history from a native app.
+A desktop application that provides a visual interface for [Claude Code Flow](https://github.com/andrasp/claude-code-flow) projects. Browse flows, track roadmap progress, explore memory, and review session history from a native app.
 
 ## Features
 
@@ -159,7 +159,7 @@ claude-code-flow-ui/
 
 ## Related
 
-- [Claude Code Flow](https://github.com/anthropics/claude-code-flow) - The workflow system this UI visualizes
+- [Claude Code Flow](https://github.com/andrasp/claude-code-flow) - The workflow system this UI visualizes
 
 ## License
 

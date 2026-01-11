@@ -142,7 +142,7 @@ function createMenu(): void {
         {
           label: 'Documentation',
           click: (): void => {
-            shell.openExternal('https://github.com/anthropics/claude-code-flow')
+            shell.openExternal('https://github.com/andrasp/claude-code-flow')
           },
         },
       ],
