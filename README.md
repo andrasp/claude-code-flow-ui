@@ -1,4 +1,4 @@
-# Flow UI
+# Claude Code Flow UI
 
 *Visual layer for Claude Code Flow.*
 
@@ -46,43 +46,43 @@ The app expects a `docs/context/` directory structure as created by Claude Code 
 
 The home screen showing project overview with active flows, roadmap summary, and quick navigation.
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/dashboard.png)
 
 ### Flows
 
 Browse all flows organized by type (feature, bugfix, refactor, etc.) with status indicators and filtering.
 
-![Flows](assets/screenshots/flows.png)
+![Flows](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/flows.png)
 
 ### Flow Detail
 
 Deep dive into a specific flow showing phase progress, all documentation (plan, research, tasks, outcome), and related files.
 
-![Flow Detail](assets/screenshots/flow-detail.png)
+![Flow Detail](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/flow-detail.png)
 
 ### Roadmap Board
 
 Kanban board with columns for Planned, In Progress, and Completed items. Visual badges indicate which items are ready to start (dependencies met) vs which are waiting on other work.
 
-![Roadmap Board](assets/screenshots/roadmap-board.png)
+![Roadmap Board](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/roadmap-board.png)
 
 ### Roadmap Timeline
 
 Gantt style visualization showing all roadmap items on a timeline. Items are sized by effort (XS to XL), colored by priority (P0 to P3), and connected by dependency arrows. Instantly see the critical path and what's blocking what.
 
-![Roadmap Timeline](assets/screenshots/roadmap-timeline.png)
+![Roadmap Timeline](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/roadmap-timeline.png)
 
 ### Memory
 
 Explore your project's accumulated knowledge across patterns, lessons, architecture notes, conventions, and gotchas.
 
-![Memory](assets/screenshots/memory.png)
+![Memory](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/memory.png)
 
 ### History
 
 Timeline of past flow sessions with outcomes and lessons learned.
 
-![History](assets/screenshots/history.png)
+![History](https://raw.githubusercontent.com/andrasp/claude-code-flow-ui/main/assets/screenshots/history.png)
 
 ## Keyboard Shortcuts
 
@@ -98,7 +98,7 @@ Timeline of past flow sessions with outcomes and lessons learned.
 
 ```bash
 # Clone the repo
-git clone https://github.com/anthropics/claude-code-flow-ui.git
+git clone https://github.com/andrasp/claude-code-flow-ui.git
 cd claude-code-flow-ui
 
 # Install dependencies
